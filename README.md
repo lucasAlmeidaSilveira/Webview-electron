@@ -30,8 +30,6 @@ npm start
 ```
 Depois é só modificar a linha do main.js ```win.loadURL("http://localhost:5500/")``` adicionando a URL de sua preferência.
 
-<br>
-
 ## 💻 Projeto
 
 O Webview Simple, é um navegador criado para ser usado como visualizador de testes de app web, como server.
