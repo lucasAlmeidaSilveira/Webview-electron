@@ -20,7 +20,7 @@
 ## 🎉 Install
 
 ```sh
-npm i electron
+npm install
 ```
 
 ## 🔥 Usage

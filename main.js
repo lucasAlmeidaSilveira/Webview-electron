@@ -10,9 +10,12 @@ function createWindow() {
     // frame: false,
     autoHideMenuBar: true,
     alwaysOnTop: true,
+    icon: __dirname + "/.github/electronjs-icon.svg",
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
+      nodeIntegration: true
     },
+    
   });
 
   win.loadURL("http://localhost:5500/");
