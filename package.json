@@ -1,4 +1,5 @@
 {
+  "name": "electron",
   "version": "1.0.0",
   "description": "Webview Simple",
   "main": "main.js",
@@ -6,7 +7,7 @@
     "start": "electron ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucas Almeida da Silveira",
   "license": "ISC",
   "dependencies": {
     "electron": "^12.0.2"
