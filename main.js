@@ -12,7 +12,6 @@ function createWindow() {
     alwaysOnTop: true,
     icon: __dirname + "/.github/electronjs-icon.svg",
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
       nodeIntegration: true
     },
     
